@@ -17,7 +17,7 @@ The fastLink ( R) and Dedupe (Python) code is adapted from code available from t
 - Dedupe is a Python library that implements **supervised machine learning** to deduplicate and link data files. We use the record linkage functions of Dedupe in this code to link two files. 
 - Our code is adapted from example code posted on the Dedupe GitHub page – all credit goes to the Dedupe developers, and all questions should be directed to them unless they are specific to the data we’ve used or our changes to the code.
 - [Dedupe code]
--[Dedupe GitHub]
+- [Dedupe GitHub]
 
 ### fastLink (fastlink.R) - unsupervised machine learning
 - fastLink is an R package that uses **unsupervised machine learning** to link datasets. 
