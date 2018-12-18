@@ -26,7 +26,7 @@ The [fastLink] and [Dedupe] code is adapted from code available from the package
 - [fastLink CRAN]
 - [fastLink GitHub]
 
-## [Data]
+# [Data]
 These scripts run on subsamples of two public Michigan voter registration files from 2015 and 2017. Our subsamples are available in this repo, the original files are accessible for download [here]. 
 
 ### Data Preparation
