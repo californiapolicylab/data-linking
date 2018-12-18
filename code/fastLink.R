@@ -7,7 +7,7 @@
 
 library(fastLink)
 library(stringi)
-setwd("E:/Projects/Public/Data Linking/data/MI Data/CSVs")
+setwd("Data Linking")
 
 #Read in datasets
 dfA=read.csv("2015_byear.csv", stringsAsFactors = F)
@@ -59,5 +59,5 @@ for (x in thresh){
   match_pairs$false_positive=match_pairs$voterid_A!=match_pairs$voterid_B
   match_pairs=cbind(match_pairs,matches.out$posterior)
   colnames(match_pairs)[colnames(match_pairs) == "matches.out$posterior"] <- "posterior"
-  write.csv(match_pairs, paste("E:/Projects/Public/Data Linking/White paper software tests/fastLink/20181211MIbyear_match_pairs_", x,".csv", sep=""))
+  write.csv(match_pairs, paste("fastLink/20181211MIbyear_match_pairs_", x,".csv", sep=""))
 }
