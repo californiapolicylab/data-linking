@@ -8,18 +8,18 @@ The fastLink ( R) and Dedupe (Python) code is adapted from code available from t
 
 # Code
 
-### Rules-Based (rules.sas)
+### Rules-Based
 
   - This program implements **rules-based linking** using SAS and was developed by the California Policy Lab. This code is intended as an example of rules-based linking – rules and code will vary on a case by case basis. Rules-based data linking can be performed in virtually any programming language. 
   - [Rules code]
 
-### Dedupe (dedupe.py) - supervised machine learning
+### Dedupe - supervised machine learning
 - Dedupe is a Python library that implements **supervised machine learning** to deduplicate and link data files. We use the record linkage functions of Dedupe in this code to link two files. 
 - Our code is adapted from example code posted on the Dedupe GitHub page – all credit goes to the Dedupe developers, and all questions should be directed to them unless they are specific to the data we’ve used or our changes to the code.
 - [Dedupe code]
 - [Dedupe GitHub]
 
-### fastLink (fastlink.R) - unsupervised machine learning
+### fastLink - unsupervised machine learning
 - fastLink is an R package that uses **unsupervised machine learning** to link datasets. 
 - We adapt the code that accompanies the fastLink CRAN package to link our datasets – all credit goes to the fastLink developers and all questions should be directed to them unless they are specific to the data we’ve used or our changes to the code.
 - [fastLink code]
