@@ -12,7 +12,7 @@
 *        Levenshtein fuzzy match on fname, mname, lname;
 options macrogen nomprint;
 
-libname base "/accounts/projects/jr_ra/cpl/timed test/data";
+libname base "/accounts/cpl/data";
 libname here ".";
 ***START OF MACRO TO RUN THE FULL RULES-BASED MERGE;
 %macro fullrun (filename=, outfile=);
@@ -21,13 +21,13 @@ libname here ".";
   %let _timer_start = %sysfunc(datetime());
 
 *Read in CSVs;
- proc import datafile="E:\Projects\Data Linking\data\MI data\CSVs\2015_&filename..csv"
+ proc import datafile="2015_&filename..csv"
       out=samp2015
 	  dbms=csv
 	  replace;
    getnames=yes;
    run;
- proc import datafile="E:\Projects\Data Linking\data\MI data\CSVs\2017_&filename..csv"
+ proc import datafile="2017_&filename..csv"
       out=samp2017
 	  dbms=csv
 	  replace;
