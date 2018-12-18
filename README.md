@@ -29,7 +29,7 @@ These scripts run on subsamples of two public Michigan voter registration files 
 ### Data Preparation (“2015_byear.csv” and “2017_byear.csv”)
 1.	We download two .lst files from [this website] - the full 2015 and 2017 voter registration files. 
 2.	We keep a random 3 million records from each dataset, then a random 1 million with a match rate of 70% across datasets
-3.	From these 1 million samples we restrict to individuals born in 1987 and 1988. 
+3.	From these 1 million samples we restrict to individuals born in 1985 and 1986. 
 
 ## Team
 - Elsa Augustine, CPL
