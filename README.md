@@ -6,7 +6,7 @@ The purpose of these exercises is to experiment with different approaches to lin
 
 The [fastLink] and [Dedupe] code is adapted from code available from the package authors, the rules-based code (written in SAS) is our own. 
 
-# Code
+# [Code]
 
 ### Rules-Based
 
@@ -60,5 +60,6 @@ These scripts run on subsamples of two public Michigan voter registration files 
    [Dedupe code]: <code/dedupe.py>
    [Rules code]: <code/rules.sas>
    [Data]: <data>
+   [Code]: <code>
    
 
