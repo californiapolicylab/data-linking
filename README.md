@@ -1,10 +1,10 @@
 ﻿# Administrative Data Linking
 
-This repository contains sample code the [California Policy Lab] used to test software approaches to data linking in the writing of the California Policy Lab white paper [Administrative Data Linking]. 
+This repository contains sample code the [California Policy Lab] used to test software approaches to data linking. This topic is explored in the California Policy Lab white paper "[Administrative Data Linking]". 
 
-The purpose of these exercises is to experiment with different approaches to linking administrative data (rules-based, supervised machine learning, and unsupervised machine learning) using publicly available records of Michigan voter registration. We tested programs that carry out each of these approaches and evaluate their relative performance. For more on approaches to administrative data linking and to see the results of the tests run, please see the white paper. 
+The purpose of these exercises is to experiment with different approaches to linking administrative data (rules-based, supervised machine learning, and unsupervised machine learning) using publicly available records of Michigan voter registration. We tested programs that carry out each of these approaches and evaluate their relative performance. For more on approaches to administrative data linking and for the results of the tests run, please see the white paper. 
 
-The fastLink ( R) and Dedupe (Python) code is adapted from code available from the package authors (fastLink and Dedupe), the rules-based code (written in SAS) is our own. 
+The [fastLink] and [Dedupe] code is adapted from code available from the package authors, the rules-based code (written in SAS) is our own. 
 
 # Code
 
@@ -50,7 +50,9 @@ These scripts run on subsamples of two public Michigan voter registration files 
    [California Policy Lab]: <https://www.capolicylab.org/?>
    [Administrative Data Linking]: <LINK HERE>
    [Dedupe GitHub]: <https://github.com/dedupeio/dedupe>
+   [Dedupe]: <https://github.com/dedupeio/dedupe>
    [fastLink GitHub]: <https://github.com/kosukeimai/fastLink>
+   [fastLink]: <https://github.com/kosukeimai/fastLink>
    [fastLink CRAN]: <https://github.com/kosukeimai/fastLink>
    [here]: <http://michiganvoters.info/>
    [this website]: <http://michiganvoters.info/>
