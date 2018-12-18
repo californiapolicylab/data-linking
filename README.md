@@ -20,6 +20,7 @@ The fastLink ( R) and Dedupe (Python) code is adapted from code available from t
 ### fastLink (fastlink.R) - unsupervised machine learning
 - fastLink is an R package that uses **unsupervised machine learning** to link datasets. 
 - We adapt the code that accompanies the fastLink CRAN package to link our datasets – all credit goes to the fastLink developers and all questions should be directed to them unless they are specific to the data we’ve used or our changes to the code.
+- code: (code/fastlink.R)
 - [fastLink CRAN]
 - [fastLink GitHub]
 
