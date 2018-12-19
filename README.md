@@ -48,7 +48,7 @@ These scripts run on subsamples of two public Michigan voter registration files 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [California Policy Lab]: <https://www.capolicylab.org/?>
-   [Administrative Data Linking]: <LINK HERE>
+   [Administrative Data Linking]: <https://www.capolicylab.org/linking-administrative-data/>
    [Dedupe GitHub]: <https://github.com/dedupeio/dedupe>
    [Dedupe]: <https://github.com/dedupeio/dedupe>
    [fastLink GitHub]: <https://github.com/kosukeimai/fastLink>
